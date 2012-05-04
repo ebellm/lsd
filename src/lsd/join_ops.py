@@ -1029,7 +1029,7 @@ class IntoWriter(object):
 
 	#################
 
-	def peek(self, rows):
+	def peek(self):
 		# We always return uint64 arrays
 		return np.empty(0, dtype='u8')
 
